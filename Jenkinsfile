@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/<your-username>/<repo-name>.git', branch: 'main'
+                git url: 'https://github.com/RitamPal26/CI-CDscenario3.git', branch: 'main'
             }
         }
         stage('Build & Test') {
